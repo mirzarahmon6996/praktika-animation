@@ -1,0 +1,194 @@
+body {
+    background-color: rgb(2, 24, 35);
+}
+
+.main-container {
+    margin: 200px auto;
+    width: 500px;
+    color: white;
+    font-size: 42px;
+}
+
+.info {
+    display: flex;
+    align-items: center;
+    letter-spacing: 7px;
+
+}
+
+.image {
+    margin: 0 20px;
+}
+
+.span1 {
+    animation-name: n;
+    animation-duration: 1s;
+}
+
+@keyframes n {
+    from {
+        transform: translateY(-280px);
+    }
+}
+
+.span2 {
+    animation-name: a;
+    animation-duration: 1.2s;
+    animation-delay: 0.5s;
+
+}
+
+@keyframes a {
+    from {
+        transform: translateY(-270px);
+    }
+
+
+}
+
+.span3 {
+    animation-name: j;
+    animation-duration: 1.4s;
+    animation-delay: 0.7s;
+
+}
+
+@keyframes j {
+    from {
+        transform: translateY(-260px);
+    }
+
+
+}
+
+.span4 {
+    animation-name: o;
+    animation-duration: 1.6s;
+    animation-delay: 0.9s;
+
+}
+
+@keyframes o {
+    from {
+        transform: translateY(-250px);
+    }
+}
+
+.span5 {
+    animation-name: t;
+    animation-duration: 1.8s;
+    animation-delay: 1.1s;
+
+}
+
+@keyframes t {
+    from {
+        transform: translateY(-240px);
+    }
+}
+
+.span6 {
+    animation-name: t;
+    animation-duration: 2s;
+    animation-delay: 1.3s;
+
+}
+
+@keyframes t {
+    from {
+        transform: translateY(-230px);
+    }
+}
+
+.span7 {
+    animation-name: a;
+    animation-duration: 2.2s;
+    animation-delay: 1.5s;
+
+}
+
+@keyframes a {
+    from {
+        transform: translateY(-220px);
+    }
+}
+
+.span8 {
+    animation-name: l;
+    animation-duration: 2.4s;
+    animation-delay: 1.7s;
+
+}
+
+@keyframes l {
+    from {
+        transform: translateY(-210px);
+    }
+}
+
+.span9 {
+    animation-name: i;
+    animation-duration: 2.6s;
+    animation-delay: 1.9s;
+
+}
+
+@keyframes i {
+    from {
+        transform: translateY(-200px);
+    }
+}
+
+.span10 {
+    animation-name: i;
+    animation-duration: 2.8s;
+    animation-delay: 2.1s;
+
+}
+
+@keyframes i {
+    from {
+        transform: translateY(-190px);
+    }
+}
+
+.span11 {
+    animation-name: m;
+    animation-duration: 3s;
+    animation-delay: 2.3s;
+
+}
+
+@keyframes m {
+    from {
+        transform: translateY(-180px);
+    }
+}
+
+.image {
+    animation-name: img;
+    position: relative;
+    animation-duration:3s;
+}
+
+@keyframes img {
+    0% {
+        transform: scale(1);
+    }
+
+    30% {
+        transform: scale(1.3);
+    }
+
+    50% {
+        transform: scale(1.5);
+    }
+
+    90% {
+        transform: scale(1.3);
+    }
+
+    100% {
+        transform: scale(1);
+    }
+}
